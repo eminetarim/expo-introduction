@@ -6,6 +6,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import CoursesInformationScreen from "./src/screens/CoursesInformationScreen";
 import CounterScreen from "./src/screens/CounterScreen";
 import BoxScreen from "./src/screens/BoxScreen";
+import ColorChangeScreen from "./src/screens/ColorChangeScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -19,6 +20,7 @@ export default function App() {
         <Stack.Screen name="CoursesInformation" component={CoursesInformationScreen} />
         <Stack.Screen name="Counter" component={CounterScreen} />
         <Stack.Screen name="Box App" component={BoxScreen} />
+        <Stack.Screen name="Change Color" component={ColorChangeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

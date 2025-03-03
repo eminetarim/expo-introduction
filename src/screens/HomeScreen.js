@@ -17,9 +17,10 @@ export default function HomeScreen({ navigation }) {
         title="Counter App"
         onPress={() => navigation.navigate("Counter")}
       />
+      <Button title="Box App" onPress={() => navigation.navigate("Box App")} />
       <Button
-        title="Box App"
-        onPress={() => navigation.navigate("Box App")}
+        title="Change Color"
+        onPress={() => navigation.navigate("Change Color")}
       />
     </View>
   );
