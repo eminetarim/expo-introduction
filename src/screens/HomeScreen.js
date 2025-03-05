@@ -22,6 +22,10 @@ export default function HomeScreen({ navigation }) {
         title="Change Color"
         onPress={() => navigation.navigate("Change Color")}
       />
+            <Button
+        title="Password Screen"
+        onPress={() => navigation.navigate("Password Screen")}
+      />
     </View>
   );
 }

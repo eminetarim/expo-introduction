@@ -7,6 +7,7 @@ import CoursesInformationScreen from "./src/screens/CoursesInformationScreen";
 import CounterScreen from "./src/screens/CounterScreen";
 import BoxScreen from "./src/screens/BoxScreen";
 import ColorChangeScreen from "./src/screens/ColorChangeScreen";
+import PasswordScreen from "./src/screens/PasswordScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -21,6 +22,7 @@ export default function App() {
         <Stack.Screen name="Counter" component={CounterScreen} />
         <Stack.Screen name="Box App" component={BoxScreen} />
         <Stack.Screen name="Change Color" component={ColorChangeScreen} />
+        <Stack.Screen name="Password Screen" component={PasswordScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
